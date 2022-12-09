@@ -1,0 +1,25 @@
+{
+  "name": "rndhex",
+  "description": "#000000",
+  "keywords": [
+    "less",
+    "css",
+    "html",
+    "javascript",
+    "hex"
+  ],
+  "homepage": "https://fxhxyz4.github.io",
+  "bugs": "https://github.com/fxhxyz4/rndhex/issues",
+  "author": "fxhxyz <fxhxyz@proton.me> (https://fxhxyz4.github.io)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "less": "lessc ./src/less/index.less ./src/less/index.css",
+    "css": "css-minify -f ./src/less/index.css"
+  },
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "less": "^4.1.3"
+  }
+}
